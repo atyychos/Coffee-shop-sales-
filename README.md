@@ -39,6 +39,7 @@ Developed key business metrics:
 •	Total Orders (Footfall)
 •	Average Bill per Person
 •	Average Orders per Person
+
 Additional logic applied:
 •	Aggregations using SUM, COUNT, and DIVIDE
 •	Time-based comparisons (Month-wise trends)
