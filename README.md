@@ -24,6 +24,7 @@ Performed essential preprocessing to ensure data consistency:
 •	Removed null or inconsistent records
 •	Standardized column names for clarity
 •	Ensured proper formatting for time-based analysis
+
 3. Feature Engineering (Power Query)
 Created new columns to enable deeper analysis:
 •	Hour Column → Extracted from transaction time
