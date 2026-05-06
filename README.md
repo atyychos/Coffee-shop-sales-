@@ -31,9 +31,11 @@ Created new columns to enable deeper analysis:
 •	Day Name Column → For weekday vs weekend comparison
 •	Month Name Column → For monthly trend analysis
 •	Date Hierarchy → Enabled drill-down capability
+
 4. Data Modeling
 •	Ensured a clean, single-table analytical model (or optimized relationships if multiple tables used)
 •	Structured data for efficient calculations and fast dashboard performance
+
 5. KPI Creation Using Measures
    
 Developed key business metrics:
