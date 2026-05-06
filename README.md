@@ -33,6 +33,7 @@ Created new columns to enable deeper analysis:
 •	Ensured a clean, single-table analytical model (or optimized relationships if multiple tables used)
 •	Structured data for efficient calculations and fast dashboard performance
 5. KPI Creation Using Measures
+   
 Developed key business metrics:
 •	Total Sales Revenue
 •	Total Orders (Footfall)
