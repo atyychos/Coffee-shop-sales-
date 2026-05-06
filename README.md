@@ -12,6 +12,7 @@ This project demonstrates a complete end-to-end business analytics workflow usin
 •	Pivot Tables & Pivot Charts – Data summarization
 •	Excel Formulas – KPI calculations (SUM, AVERAGE, COUNT, etc.)
 •	Data Cleaning – Formatting, structuring, preprocessing
+
 **Step-by-Step Workflow**
 1. Data Import
 •	Loaded raw coffee shop sales dataset into Excel
