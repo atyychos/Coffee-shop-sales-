@@ -17,6 +17,7 @@ This project demonstrates a complete end-to-end business analytics workflow usin
 1. Data Import
 •	Loaded raw coffee shop sales dataset into Excel
 •	Verified column structure: transaction date, time, product, category, quantity, unit price, and store location
+
 2. Data Cleaning (Power Query)
 Performed essential preprocessing to ensure data consistency:
 •	Changed data types (Date, Time, Numeric fields)
