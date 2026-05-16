@@ -207,8 +207,7 @@ Users can dynamically filter the dashboard using:
 
 ## Dashboard Preview
 
-![Dashboard](<img width="1786" height="847" alt="Coffee_shop Dashboard" src="https://github.com/user-attachments/assets/4b96f486-cbc2-4410-a7a1-333ebafe5c0b" />
-)
+![Dashboard](https://github.com/atyychos/Coffee-shop-sales-/blob/0615807e1187acfde5bcac27f5a24a16785c489a/Coffee_shop%20Dashboard.png)
 
 ---
 
