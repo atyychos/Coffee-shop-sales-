@@ -1,96 +1,226 @@
-**Coffee Shop Sales Dashboard – End-to-End Business Analytics Project**
-**Project Overview**
-This project demonstrates a complete end-to-end business analytics workflow using MS Excel, where raw coffee shop transactional data is cleaned, transformed, and visualized into an interactive dashboard. The goal is to extract actionable insights related to sales performance, customer behavior, and product trends to support business decision-making.
-**Business Objectives**
-•	Analyze sales trends across different time dimensions (hourly, daily, monthly)
-•	Identify peak business hours and high-performing days
-•	Evaluate revenue contribution by product categories
-•	Compare performance across multiple store locations
-•	Understand customer purchasing patterns and average spending behavior
-**Tools & Skills**
-•	Microsoft Excel – Dashboard creation & data analysis
-•	Pivot Tables & Pivot Charts – Data summarization
-•	Excel Formulas – KPI calculations (SUM, AVERAGE, COUNT, etc.)
-•	Data Cleaning – Formatting, structuring, preprocessing
+# Coffee Shop Sales Dashboard | End-to-End Business Analytics Project
 
-**Step-by-Step Workflow**
-1. Data Import
-•	Loaded raw coffee shop sales dataset into Excel
-•	Verified column structure: transaction date, time, product, category, quantity, unit price, and store location
+## Project Overview
+This project showcases a complete end-to-end business analytics workflow using Microsoft Excel, where raw coffee shop transactional data is cleaned, transformed, analyzed, and visualized into an interactive dashboard.
 
-2. Data Cleaning (Power Query)
-Performed essential preprocessing to ensure data consistency:
-•	Changed data types (Date, Time, Numeric fields)
-•	Removed null or inconsistent records
-•	Standardized column names for clarity
-•	Ensured proper formatting for time-based analysis
+The primary objective of this project is to convert raw business data into actionable insights that support strategic decision-making related to sales performance, customer behavior, and product trends.
 
-3. Feature Engineering (Power Query)
-Created new columns to enable deeper analysis:
-•	Hour Column → Extracted from transaction time
-•	Day Name Column → For weekday vs weekend comparison
-•	Month Name Column → For monthly trend analysis
-•	Date Hierarchy → Enabled drill-down capability
+The dashboard enables stakeholders to explore performance across different time periods, product categories, and store locations through interactive visualizations and slicers.
 
-4. Data Modeling
-•	Ensured a clean, single-table analytical model (or optimized relationships if multiple tables used)
-•	Structured data for efficient calculations and fast dashboard performance
+---
 
-5. KPI Creation Using Measures
-   
-Developed key business metrics:
-•	Total Sales Revenue
-•	Total Orders (Footfall)
-•	Average Bill per Person
-•	Average Orders per Person
+## Business Objectives
 
-Additional logic applied:
-•	Aggregations using SUM, COUNT, and DIVIDE
-•	Time-based comparisons (Month-wise trends)
+- Analyze sales performance across hourly, daily, and monthly time dimensions
+- Identify peak business hours and highest-performing days
+- Evaluate revenue contribution by different product categories
+- Compare sales performance across multiple store locations
+- Understand customer purchasing behavior and average spending patterns
 
-**Dashboard Development**
-Key Visuals Created
-	KPI Cards
-•	Total Sales: $698,812.33
-•	Total Footfall: 149,116
-•	Avg Bill: $4.69
-•	Avg Orders: 1.44
-	Sales by Hour (Line/Bar Chart)
-•	Identified peak hours (morning rush)
-	Sales by Day (Column Chart)
-•	Compared weekday vs weekend performance
-	Sales by Month (Trend Analysis)
-•	Evaluated revenue growth patterns
-	Sales by Product Category (Bar/Donut Chart)
-•	Highlighted contribution of coffee, tea, and other items
-	Top Products Analysis
-•	Identified best-selling items like espresso and brewed tea
-	Store Location Comparison
-•	Compared revenue across different outlets
-	Interactive Slicers
-•	Month filter
-•	Product category filter
-•	Store selection
-**Key Business Insights**
-•	Morning hours (7 AM – 10 AM) generate the highest sales volume
-•	Coffee and tea dominate revenue, acting as core business drivers
-•	Weekdays outperform weekends, indicating routine-driven consumption
-•	Top-selling products are classic beverages, not premium or niche items
-•	Low average spending per customer suggests strong potential for upselling and combo offers
-**Business Recommendations**
-•	Introduce bundle offers (coffee + snack) to increase average order value
-•	Focus marketing campaigns during morning peak hours
-•	Launch loyalty programs for weekday customers
-•	Promote high-margin products alongside popular items
-**Project Deliverables**
-•	Interactive Microsoft Excel Dashboard (.xlsx)
-•	Dashboard Preview Image
-•	Business Insights Presentation
-•	Cleaned Dataset (included within Excel file)
-**How to Use**
-•	Open the .xlsx file in Microsoft Excel
-•	Use filters and slicers to explore data by month, category, or store
-•	Analyze trends through charts and pivot tables
-•	Interpret insights to support business decision-making
-**Conclusion**
-This project demonstrates a practical application of business analytics using Microsoft Excel, where raw transactional data is cleaned, structured, and transformed into meaningful insights. It highlights strong capabilities in data analysis, dashboard creation, and analytical thinking, relevant for roles in data analysis and business decision support.
+---
+
+## Tools & Technologies Used
+
+| Tool | Purpose |
+|------|----------|
+| Microsoft Excel | Data analysis & dashboard development |
+| Power Query | Data cleaning & transformation |
+| Pivot Tables | Data summarization |
+| Pivot Charts | Data visualization |
+| Excel Formulas | KPI calculations & analysis |
+
+---
+
+## Dataset Information
+
+The dataset contains transactional sales records from a coffee shop business, including:
+
+- Transaction Date
+- Transaction Time
+- Product Name
+- Product Category
+- Quantity Sold
+- Unit Price
+- Store Location
+
+---
+
+## Project Workflow
+
+### 1️) Data Import
+- Imported raw transactional sales dataset into Microsoft Excel
+- Verified column consistency and dataset structure
+
+---
+
+### 2️) Data Cleaning (Power Query)
+Performed preprocessing to ensure data quality and analytical accuracy:
+
+- Changed incorrect data types
+- Removed null and inconsistent records
+- Standardized column names
+- Formatted date and time fields properly
+- Prepared dataset for time-series analysis
+
+---
+
+### 3️) Feature Engineering
+Created additional analytical columns for deeper business insights:
+
+- Hour Column → Extracted from transaction time  
+- Day Name Column → Enabled weekday vs weekend analysis  
+- Month Name Column → Used for monthly trend evaluation  
+- Date Hierarchy → Enabled drill-down analysis  
+
+---
+
+### 4️) Data Modeling
+- Structured a clean analytical model for efficient reporting
+- Optimized data structure for smooth dashboard performance
+- Prepared dataset for Pivot Tables and KPI calculations
+
+---
+
+## KPI Metrics Developed
+
+| KPI | Value |
+|-----|------|
+| Total Sales Revenue | $698,812.33 |
+| Total Footfall | 149,116 |
+| Average Bill per Person | $4.69 |
+| Average Orders per Person | 1.44 |
+
+Additional calculations included:
+- SUM aggregations
+- COUNT analysis
+- Average calculations
+- Month-wise trend comparisons
+
+---
+
+## Dashboard Features & Visualizations
+
+### KPI Cards
+- Total Sales
+- Customer Footfall
+- Average Bill Value
+- Average Orders
+
+---
+
+### Sales by Hour
+- Identified peak sales hours during morning rush periods
+- Analyzed hourly customer traffic trends
+
+---
+
+### Sales by Day
+- Compared weekday and weekend performance
+- Evaluated customer purchasing behavior patterns
+
+---
+
+### Monthly Sales Trend Analysis
+- Tracked revenue growth across months
+- Identified seasonal performance trends
+
+---
+
+### Product Category Analysis
+- Analyzed revenue contribution by category
+- Compared coffee, tea, bakery, and other products
+
+---
+
+### Top Products Analysis
+- Identified best-selling items
+- Highlighted high-demand beverages such as espresso and brewed tea
+
+---
+
+### Store Location Comparison
+- Compared sales performance across different outlets
+- Evaluated location-wise revenue contribution
+
+---
+
+### Interactive Slicers
+Users can dynamically filter the dashboard using:
+- Month Filter
+- Product Category Filter
+- Store Location Filter
+
+---
+
+## Key Business Insights
+
+- Morning hours (7 AM – 10 AM) generate the highest sales volume
+- Coffee and tea products dominate overall revenue contribution
+- Weekday sales outperform weekends, indicating routine-driven customer behavior
+- Classic beverages consistently outperform premium or niche offerings
+- Lower average customer spending suggests upselling opportunities
+
+---
+
+## Business Recommendations
+
+- Introduce combo offers (coffee + snacks) to increase average order value
+- Run targeted marketing campaigns during morning peak hours
+- Launch loyalty programs focused on weekday customers
+- Promote high-margin items alongside top-selling beverages
+
+---
+
+## Project Deliverables
+
+- Interactive Excel Dashboard (.xlsx)
+- Dashboard Preview Images
+- Business Insights Report
+- Cleaned and Structured Dataset
+
+---
+
+## How to Use
+
+1. Open the `.xlsx` file in Microsoft Excel
+2. Use slicers and filters to explore the dashboard
+3. Analyze trends by:
+   - Month
+   - Product Category
+   - Store Location
+4. Review KPIs and charts for business insights
+
+---
+
+## Skills Demonstrated
+
+- Business Analytics
+- Data Cleaning
+- Data Transformation
+- Dashboard Design
+- KPI Development
+- Data Visualization
+- Analytical Thinking
+- Business Insight Generation
+
+---
+
+## Dashboard Preview
+
+![Dashboard](<img width="1786" height="847" alt="Coffee_shop Dashboard" src="https://github.com/user-attachments/assets/4b96f486-cbc2-4410-a7a1-333ebafe5c0b" />
+)
+
+---
+
+## 📁 Repository Structure
+
+```bash
+Coffee-Shop-Sales-Dashboard/
+│
+├── Dataset/
+├── Dashboard/
+├── Images/
+│   └── dashboard.png
+├── Documentation/
+├── Coffee_Shop_Sales_Dashboard.xlsx
+└── README.md
