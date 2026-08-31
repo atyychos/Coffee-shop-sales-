@@ -1,4 +1,4 @@
-# Coffee Shop Sales Dashboard | End-to-End Business Analytics Project
+# Coffee Shop Sales Dashboard | End-to-End Business Analytics Project 
 
 ## Project Overview
 This project showcases a complete end-to-end business analytics workflow using Microsoft Excel, where raw coffee shop transactional data is cleaned, transformed, analyzed, and visualized into an interactive dashboard.
